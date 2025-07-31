@@ -1,0 +1,48 @@
+{
+  "boards": [
+    {
+      "id": "board-1",
+      "title": "Projeto Kanban"
+    }
+  ],
+  "columns": [
+    {
+      "id": "col-1",
+      "title": "A Fazer",
+      "boardId": "board-1",
+      "order": 1
+    },
+    {
+      "id": "col-2",
+      "title": "Em Andamento",
+      "boardId": "board-1",
+      "order": 2
+    },
+    {
+      "id": "col-3",
+      "title": "Concluído",
+      "boardId": "board-1",
+      "order": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "columnId": "col-3",
+      "content": "teste",
+      "order": 1
+    },
+    {
+      "id": "task-2",
+      "columnId": "col-3",
+      "content": "tteste",
+      "order": 1
+    },
+    {
+      "id": "task-3",
+      "columnId": "col-3",
+      "content": "Testar UI",
+      "order": 1
+    }
+  ]
+}
